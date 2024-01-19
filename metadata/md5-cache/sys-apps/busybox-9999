@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst preinst prepare unpack
+DEPEND=!static? ( virtual/libc virtual/libcrypt:= selinux? ( sys-libs/libselinux ) ) pam? ( sys-libs/pam ) static? ( virtual/libcrypt[static-libs] selinux? ( sys-libs/libselinux[static-libs(+)] ) ) sys-kernel/linux-headers
+DESCRIPTION=Utilities for rescue and embedded systems
+EAPI=8
+HOMEPAGE=https://www.busybox.net/
+INHERIT=flag-o-matic readme.gentoo-r1 savedconfig toolchain-funcs git-r3
+IUSE=debug livecd make-symlinks math mdev pam selinux sep-usr static syslog systemd savedconfig
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=!static? ( virtual/libc virtual/libcrypt:= selinux? ( sys-libs/libselinux ) ) pam? ( sys-libs/pam )
+REQUIRED_USE=pam? ( !static )
+RESTRICT=test
+SLOT=0
+_eclasses_=flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	portability	225656ad6c6594fe3b0187bdd50707fb	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	savedconfig	8b5f9d995a970e49cd427c55d5840285	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=a631d4821269c431309e045be5ce2b94

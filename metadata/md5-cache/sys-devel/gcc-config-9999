@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Utility to manage compilers
+EAPI=8
+HOMEPAGE=https://gitweb.gentoo.org/proj/gcc-config.git/
+INHERIT=git-r3
+IUSE=+cc-wrappers +native-symlinks
+LICENSE=GPL-2 GPL-2+
+PROPERTIES=live
+RDEPEND=>=sys-apps/gentoo-functions-0.10
+SLOT=0
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=37c088f31a3ff3ef03290915132cc3f8

@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/flex sys-devel/bison >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=sys-libs/libsepol-9999
+DESCRIPTION=SELinux policy compiler
+EAPI=7
+HOMEPAGE=http://userspace.selinuxproject.org
+INHERIT=toolchain-funcs git-r3
+IUSE=debug
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=>=sys-libs/libsepol-9999
+SLOT=0
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=0e34645fcd7ac9e99a1eadc989e842c1

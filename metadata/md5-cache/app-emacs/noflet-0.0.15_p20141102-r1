@@ -1,0 +1,13 @@
+BDEPEND=app-emacs/dash >=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DESCRIPTION=Dynamic, local advice for Emacs-Lisp code
+EAPI=8
+HOMEPAGE=https://github.com/nicferrier/emacs-noflet/
+INHERIT=elisp
+KEYWORDS=amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=app-emacs/dash >=app-editors/emacs-25.3:*
+SLOT=0
+SRC_URI=https://github.com/nicferrier/emacs-noflet/archive/7ae84dc3257637af7334101456dafe1759c6b68a.tar.gz -> noflet-0.0.15_p20141102.tar.gz
+_eclasses_=elisp	fbefa95f5e9ab880a34bc69832b7c0d7	elisp-common	2a0fa407d2e6363c663ccb299503b25c
+_md5_=f7038d812baf7771eae52804cc91cc83

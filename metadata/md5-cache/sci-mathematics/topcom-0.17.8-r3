@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=dev-libs/gmp:0[cxx] >=sci-libs/cddlib-094f
+DESCRIPTION=Computing Triangulations Of Point Configurations and Oriented Matroids
+EAPI=8
+HOMEPAGE=https://www.wm.uni-bayreuth.de/de/team/rambau_joerg/TOPCOM/index.html
+INHERIT=autotools flag-o-matic
+IUSE=examples
+KEYWORDS=~amd64 ~riscv ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp:0[cxx] >=sci-libs/cddlib-094f
+SLOT=0
+SRC_URI=https://www.wm.uni-bayreuth.de/de/team/rambau_joerg/TOPCOM-Downloads/TOPCOM-0_17_8.tgz https://www.wm.uni-bayreuth.de/de/team/rambau_joerg/TOPCOM-Manual/index.html -> TOPCOM-manual.html
+_eclasses_=autotools	e4cf390b19033d5ca443765bc8537b81	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	9d3a9a889a6fa62ae794f817c156491b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=b261c66da9b2de4d32f90d4ae6d9a375

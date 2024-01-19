@@ -1,0 +1,14 @@
+BDEPEND=nls? ( sys-devel/gettext )
+DEFINED_PHASES=compile configure install
+DESCRIPTION=Disk Information Utility
+EAPI=8
+HOMEPAGE=https://diskinfo-di.sourceforge.io/
+INHERIT=toolchain-funcs
+IUSE=nls
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=ZLIB
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/diskinfo-di/di-4.52.tar.gz
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=732135d7bcad44440af01a7ec7041aa9

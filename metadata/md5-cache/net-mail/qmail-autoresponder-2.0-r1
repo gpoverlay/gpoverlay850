@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install
+DEPEND=>=dev-libs/bglibs-2.04 mysql? ( dev-db/mysql-connector-c:0= )
+DESCRIPTION=Rate-limited autoresponder for qmail
+EAPI=8
+HOMEPAGE=https://untroubled.org/qmail-autoresponder/
+INHERIT=toolchain-funcs
+IUSE=mysql
+KEYWORDS=~alpha amd64 ~hppa ~mips ~sparc x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-libs/bglibs-2.04 mysql? ( dev-db/mysql-connector-c:0= ) virtual/qmail mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=https://untroubled.org/qmail-autoresponder/archive/qmail-autoresponder-2.0.tar.gz
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=c78c6c73163461c32f69c5bbc7cbf173

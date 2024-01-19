@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Extension Modules for StumpWM
+EAPI=6
+HOMEPAGE=https://github.com/stumpwm/stumpwm-contrib/
+INHERIT=common-lisp-3 git-r3
+LICENSE=GPL-2 GPL-3 BSD-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=>=x11-wm/stumpwm-0.9.9
+SLOT=0
+_eclasses_=common-lisp-3	561c60f248457d6d3edbeddaa6f2f6c2	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=010d2fa79fa911f7edfb7b9fc13889a6

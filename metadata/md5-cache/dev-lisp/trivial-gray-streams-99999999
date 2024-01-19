@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=A thin compatibility layer between Gray Stream Common Lisp implementations
+EAPI=6
+HOMEPAGE=https://common-lisp.net/project/trivial-gray-streams/
+INHERIT=common-lisp-3 git-r3
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=!dev-lisp/cl-trivial-gray-streams
+SLOT=0
+_eclasses_=common-lisp-3	561c60f248457d6d3edbeddaa6f2f6c2	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_md5_=c88a58dba393a1c9c601ff872346cbc8

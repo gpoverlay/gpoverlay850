@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=The error function, erf, and related functions
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/erf
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile
+KEYWORDS=amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+SLOT=0/2.0.0.0
+SRC_URI=https://hackage.haskell.org/package/erf-2.0.0.0/erf-2.0.0.0.tar.gz
+_eclasses_=ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea	multilib	c19072c3cd7ac5cb21de013f7e9832e0	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=84561c8e162f7813abcaf34889e75e75

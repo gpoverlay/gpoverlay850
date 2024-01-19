@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure
+DEPEND=net-dns/c-ares net-libs/gnutls:= test? ( dev-libs/check )
+DESCRIPTION=small command line tool for testing SIP applications and devices
+EAPI=7
+HOMEPAGE=https://github.com/nils-ohlmeier/sipsak
+INHERIT=flag-o-matic
+IUSE=test
+KEYWORDS=~amd64 ~arm ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-dns/c-ares net-libs/gnutls:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/nils-ohlmeier/sipsak/releases/download/0.9.8/sipsak-0.9.8.tar.gz
+_eclasses_=flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=8c24d569940a4cd8903fe433f816bff9

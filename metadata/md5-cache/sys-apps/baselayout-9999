@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst preinst prepare setup unpack
+DESCRIPTION=Filesystem baselayout and init scripts
+EAPI=7
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+INHERIT=multilib prefix git-r3
+IUSE=build +split-usr
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=!sys-apps/baselayout-prefix
+SLOT=0
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	prefix	eab3c99d77fe00506c109c8a736186f7	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084
+_md5_=aff60d578b85028a2c87b3859f926e4b

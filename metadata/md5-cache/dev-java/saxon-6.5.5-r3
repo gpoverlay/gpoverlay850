@@ -1,0 +1,15 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=compile install preinst prepare setup test unpack
+DEPEND=dev-java/jdom:0 virtual/jdk:1.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=Set of tools for processing XML documents
+EAPI=8
+HOMEPAGE=https://www.saxonica.com/index.html https://saxon.sourceforge.net/
+INHERIT=java-pkg-2 java-pkg-simple
+IUSE=doc examples source
+KEYWORDS=amd64 x86
+LICENSE=MPL-1.1
+RDEPEND=dev-java/jdom:0 >=virtual/jre-1.8:* >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+SLOT=6.5
+SRC_URI=mirror://sourceforge/project/saxon/saxon6/6.5.5/saxon6-5-5.zip
+_eclasses_=java-pkg-2	b6d755b4f6afabfd933932be28b46368	java-pkg-simple	67f37f8db9bdf7868f26504fd7bcbb22	java-utils-2	0fd5b6616cd66c8099a941608e2e0242
+_md5_=33e1768494d01365b6b91a006fdb9a79
